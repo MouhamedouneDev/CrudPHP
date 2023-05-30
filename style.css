@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    overflow: auto;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    overflow: auto;
+    
+}
+
+table th{
+    padding: 20px;
+    font-size: 22px;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn button{
+    background: #0000ffc2;
+    height: fit-content;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: white;
+}
+
+table th button a{
+    text-decoration: none;
+    color: white;
+}
+
+table th button{
+    background: #0000ffc2;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    background: red;
+}
+
+table th button:nth-child(1)
+{
+    background: #0000ffc2;
+}

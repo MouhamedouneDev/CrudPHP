@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .register{
+    width: 75%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.container .register form{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.container .register form input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 17px;
+}
+
+.container .register form input[type="submit"]{
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 21px;
+    background: #0000ffc2;
+}
